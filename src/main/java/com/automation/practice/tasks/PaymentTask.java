@@ -23,7 +23,7 @@ public class PaymentTask {
     public String paymentTypeConfirmAndProductNumber() {
         paymentPage.paymentWireButton().click();
         paymentPage.confirmOrderButton().click();
-       return paymentPage.orderNumber().getText().substring(222, 231);
+       return paymentPage.orderNumber().getText().substring(216, 225);
     }
 
     public void goToOrders() {

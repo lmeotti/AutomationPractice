@@ -85,7 +85,7 @@ public class ComprarProdutoTest extends BaseTests {
 
         OrderHistoryDTO orderDetails = orderHistoryTask.getOrderDetails();
         assertEquals(productNumber, orderDetails.getOrderNumber());
-        assertEquals("On backorder", orderDetails.getOrderNumber());
+        assertEquals("On backorder", orderDetails.getStatusOrder());
 
     }
 }
