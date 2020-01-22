@@ -8,4 +8,4 @@
     - Apache Maven 3.6.1
     
 ### Execução
- - É possivel realizar a execução abrindo-o em uma IDE de sua preferência ou acessando o diretório do projeto, através do windows explorer e rodar o comando "mvn clean -test". 
+ - É possivel realizar a execução abrindo-o em uma IDE de sua preferência ou acessando o diretório do projeto, através do windows explorer e rodar o comando "mvn clean test". 
